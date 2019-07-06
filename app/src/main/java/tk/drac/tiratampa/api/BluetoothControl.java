@@ -5,8 +5,6 @@ import android.bluetooth.BluetoothSocket;
 import java.io.IOException;
 
 public class BluetoothControl implements ControlInterface {
-    // TODO: Implement BluetoothControl.
-
     protected BluetoothSocket bsocket;
     protected double left;
     protected double right;
